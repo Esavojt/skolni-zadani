@@ -1,0 +1,115 @@
+body, html {
+  font-family:arial, "trebuchet MS", tahoma, san-serif;
+  text-align: left;
+  background: #ffff00; color: #0000cd;
+}
+
+h1 {
+  width: 500px;
+  height: 200px;
+  background: #90ee90;
+  margin: 5;
+}
+
+h1 a {
+  text-decoration: underline;
+  color: #556b2f;
+  font-size: 1.5em;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 500px;
+  height: 200px;
+  background: url("../Pictures/hacking.gif") ;
+  background-repeat: no-repeat; /* toto jsem přidal na svůj gif */
+  cursor: pointer;
+  cursor: hand;
+  display: block;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: #2f4f4f;
+  font-size: 1em;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.navigace {
+  width: 150px;
+  float: left;
+  margin: 10 10 10 10;
+  padding: 10 10 10 10;
+  border: 3px solid black;
+}
+
+.navigace h3 {
+  display: none;
+}
+
+.navigace ul {
+  list-style-type: none;
+  margin: 20 10 20 10;
+  padding: 15 10 15 10;
+  font-family: georgia,serif;
+}
+
+.navigace li {
+  margin-bottom: 0;
+  padding-bottom:10;
+  border-bottom: 1px solid #000000;
+  background: #00ffff
+}
+.navigace li a {
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 2;
+  font-weight:  #e5c891;
+}
+
+.navigace li a:hover{
+  color: #000000;
+  display: block;
+  text-decoration: underline;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 2;
+  font-weight: normal;
+  background-color: #f1e7af;
+
+}
+
+hr.cara{
+}
+
+/* Vzhled odstavce  */
+.odstavec{
+  width: 400px;
+  margin-left: 160px;
+  padding-left: 75px;
+}
+.odstavec h2{
+  margin: 8px 0 0 0;
+  padding: 0 10x 0 0;
+  font-size: 1.5em;
+}
+.odstavec h3 {
+  margin: 10px 0 0 0;
+  padding: 0 10px 0 0;
+  font-size: 1em;
+}
+.odstavec p {
+  margin: 0px 0 0 0;
+  padding: 0 10px 0 0;
+}
+.odstavec hr {
+
+}
