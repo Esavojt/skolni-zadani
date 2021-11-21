@@ -1,5 +1,5 @@
 body, html {
-  font-family:arial, "trebuchet MS", tahoma, san-serif;
+  font-family:arial, "trebuchet MS", tahoma, sans-serif;
   text-align: left;
   background: #ffff00; color: #0000cd;
 }
@@ -23,10 +23,9 @@ h1 span {
   top: 0;
   left: 0;
   z-index: 1;
-  width: 500px;
+  width: 450px;
   height: 200px;
-  background: url("../Pictures/hacking.gif") ;
-  background-repeat: no-repeat; /* toto jsem přidal na svůj gif */
+  background: url("../Pictures/gif.gif") ;
   cursor: pointer;
   cursor: hand;
   display: block;
@@ -63,7 +62,7 @@ h1 a:hover {
   margin-bottom: 0;
   padding-bottom:10;
   border-bottom: 1px solid #000000;
-  background: #00ffff
+  background: #00ffff;
 }
 .navigace li a {
   color: #000000;
@@ -111,5 +110,33 @@ hr.cara{
   padding: 0 10px 0 0;
 }
 .odstavec hr {
+  display: none;
+}
 
+#paticka {
+  width: 1000px;
+  padding: 0;
+  font-weight: bold;
+  border-radius: 1px solid #000000;
+  font-size: 1.1em;
+  color: rgb(230, 0, 88);
+}
+
+#paticka p {
+  margin: 10px 0 0 10px;
+  padding: 0;
+}
+
+#paticka a {
+  color: darkviolet;
+  text-decoration: underline;
+}
+
+#piticka p a:hover {
+  text-decoration: none;
+  background: chocolate;
+}
+
+#paticka hr {
+  display: none;
 }
