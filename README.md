@@ -6,7 +6,6 @@
 
 ---
 
-Obsah na webu co má
-- Obrázek jako logo
-- Postranní lištu na navigaci
-- Uprostřed 
+## Záznam hodin ITch
+- 11.11. - přepisování věcí z tabule (index.html, nastav.css)
+- 12.11. - přepisování z tabule (nastav.css)
