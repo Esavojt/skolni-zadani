@@ -1,8 +1,7 @@
 # Co jsme dělali v itch
 
-- Styly
-- HTML
-- obrázek
+- První stránka - Toto je naše první stránka s xhtml
+- 1\. sloupcový layout - Toto je stránka kde je obsah ve sloupci
 
 ---
 
