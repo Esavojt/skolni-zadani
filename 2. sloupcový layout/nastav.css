@@ -1,0 +1,84 @@
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+    font-family: arial, tahoma, verdana, sans-serif; text-align: center;
+}
+body {
+    min-width: 70em;
+    margin: 0 auto;
+}
+div#hlavni
+{
+    width: 70em;
+    text-align: left;
+    margin: 0 auto;
+}
+hr {
+    display: none;
+}
+h1 {}
+h1 a, h1 a:hover {
+    color: #000;
+    text-decoration: underline;
+    display: block;
+    background: #ddd;
+    padding: .2em;
+}
+h1 a:hover {
+    color: #bd0000;
+    text-decoration: none;
+}
+div#obsah {
+    width: 80%;
+    float: left;
+    line-height: 1.3em;
+}
+div#obsah h2 {
+    font-size: 1.3em;
+    padding: 4px
+}
+div#obsah p {
+    font-size: .9em;
+    padding: 0 4px 4px 4px;
+} 
+h3 {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    width: 20%;
+    float: right;
+}
+ul li {
+    border-bottom: 1px solid #f00;
+}
+ul li a, ul li a:hover {
+    color: #000;
+    font-weight: bold;
+    display: block;
+    background: #f00;
+    text-decoration: underline;
+}
+ul li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+}
+a#skok, a#skok:hover {
+    position: absolute;
+    color: #ddd;
+    top: 10px;
+    left: 600px;
+    z-index: 0;
+    font-size: 1mm;
+}
+div#pata {
+    font-weight: bold;
+    background: #ddd;
+    width: 100%;
+    padding: .2em;
+    clear: both;
+}
