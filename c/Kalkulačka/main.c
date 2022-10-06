@@ -71,9 +71,6 @@ int main() {
     }
     
     
-    
-    printf("\nZmacknete cokoliv na ukonceni\n");
-    getch();  
 
     return 0;
 }
